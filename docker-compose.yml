@@ -1,0 +1,65 @@
+version: '3'
+services:
+
+  #PHP Service
+  moriblat-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: laravel
+    container_name: moriblat-app
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+      - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - moriblat-network
+
+  #Nginx Service
+  moriblat-webserver:
+    image: nginx:alpine
+    container_name: moriblat-webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "8099:80"
+      - "44399:443"
+    volumes:
+      - ./:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - moriblat-network
+
+  #MySQL Service
+  moriblat-db:
+    image: mysql:8.0
+    container_name: moriblat-db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "33070:3306"
+    environment:
+      MYSQL_DATABASE: moriblat_db2020
+      MYSQL_ROOT_PASSWORD: moriblat_db2020
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - dbdata:/var/lib/mysql/
+      - ./mysql/my.cnf:/etc/mysql/my.cnf
+      - ./mysql-files:/var/lib/mysql-files
+    networks:
+      - moriblat-network
+
+#Docker Networks
+networks:
+  moriblat-network:
+    driver: bridge
+#Volumes
+volumes:
+  dbdata:
+    driver: local
