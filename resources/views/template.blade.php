@@ -8,9 +8,9 @@
         <meta name="keywords" content="admin,dashboard">
         <meta name="author" content="stacks">
         <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        
+
         <!-- Title -->
-        <title>Connect - Responsive Admin Dashboard Template</title>
+        <title>Sistem Monev Danau Rawa Pening 1.0</title>
 
         <!-- Styles -->
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
         <link href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/plugins/font-awesome/css/all.min.css') }}" rel="stylesheet">
 
-      
+
         <!-- Theme Styles -->
         <link href="{{ asset('assets/css/connect.min.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/admin2.css') }}" rel="stylesheet">
@@ -43,7 +43,7 @@
             <div class="page-container">
                 <div class="page-header">
                     <nav class="navbar navbar-expand container">
-                        <div class="logo-box"><a href="#" class="logo-text">Connect</a></div>
+                        <div class="logo-box"><a href="#" class="logo-text">Moriblat</a></div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -54,7 +54,7 @@
                             <li class="nav-item nav-profile dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img src="{{ asset('assets/images/avatars/profile-image-1.png') }}" alt="profile image">
-                                    <span>Nancy Moore</span><i class="material-icons dropdown-icon">keyboard_arrow_down</i>
+                                    <span>SuperAdmin</span><i class="material-icons dropdown-icon">keyboard_arrow_down</i>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="#">Calendar<span class="badge badge-pill badge-info float-right">2</span></a>
@@ -450,8 +450,8 @@
                                                         <td><span class="badge badge-secondary">Canceled</span></td>
                                                     </tr>
                                                 </tbody>
-                                            </table> 
-                                        </div>     
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -469,7 +469,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Javascripts -->
         <script src="{{ asset('assets/plugins/jquery/jquery-3.4.1.min.js') }}"></script>
         <script src="{{ asset('assets/plugins/bootstrap/popper.min.js') }}"></script>
