@@ -58,8 +58,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="#">Calendar<span class="badge badge-pill badge-info float-right">2</span></a>
-                                    <a class="dropdown-item" href="#">Settings &amp Privacy</a>
-                                    <a class="dropdown-item" href="#">Switch Account</a>
+                                    <a class="dropdown-item" href="#">Settings</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Log out</a>
                                 </div>
@@ -70,21 +69,19 @@
                             <li class="nav-item">
                                 <a href="#" class="nav-link"><i class="material-icons-outlined">notifications</i></a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link" id="dark-theme-toggle"><i class="material-icons-outlined">brightness_2</i><i class="material-icons">brightness_2</i></a>
-                            </li>
                         </ul>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Projects</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Tasks</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Reports</a>
-                                </li>
+{{--                                </div>--}}
+{{--                                <li class="nav-item">--}}
+{{--                                    <a href="#" class="nav-link">Projects</a>--}}
+{{--                                </li>--}}
+{{--                                <li class="nav-item">--}}
+{{--                                    <a href="#" class="nav-link">Tasks</a>--}}
+{{--                                </li>--}}
+{{--                                <li class="nav-item">--}}
+{{--                                    <a href="#" class="nav-link">Reports</a>--}}
+{{--                                </li>--}}
                             </ul>
                         </div>
                         <div class="navbar-search">
@@ -106,124 +103,44 @@
                                     <ul>
                                         <li><a href="index.html" class="active">Dashboard</a></li>
                                         <li>
-                                            <a href="#">Apps<i class="material-icons">keyboard_arrow_down</i></a>
+                                            <a href="#">Lembaga<i class="material-icons"></i></a>
+                                        </li>
+                                        <li><a href="#">kajian<i class="material-icons">keyboard_arrow_down</i></a>
                                             <ul>
                                                 <li>
-                                                    <a href="mailbox.html">Mailbox</a>
+                                                    <a href="styles-typography.html">Permasalahan</a>
                                                 </li>
                                                 <li>
-                                                    <a href="profile.html">Profile</a>
+                                                    <a href="styles-code.html">Program</a>
                                                 </li>
                                                 <li>
-                                                    <a href="file-manager.html">File Manager</a>
-                                                </li>
-                                                <li>
-                                                    <a href="calendar.html">Calendar</a>
-                                                </li>
-                                                <li>
-                                                    <a href="todo.html">Todo</a>
+                                                    <a href="styles-tables.html">Kegiatan</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Style<i class="material-icons">keyboard_arrow_down</i></a>
+                                        <li><a href="#">Monev<i class="material-icons">keyboard_arrow_down</i></a>
                                             <ul>
                                                 <li>
-                                                    <a href="styles-typography.html">Typography</a>
+                                                    <a href="ui-alerts.html">Pemantauan</a>
                                                 </li>
                                                 <li>
-                                                    <a href="styles-code.html">Code</a>
-                                                </li>
-                                                <li>
-                                                    <a href="styles-tables.html">Tables</a>
-                                                </li>
-                                                <li>
-                                                    <a href="styles-icons.html">Icons</a>
+                                                    <a href="ui-badge.html">Evaluasi</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Components<i class="material-icons">keyboard_arrow_down</i></a>
+                                        <li><a href="#">Kondisi Fisik<i class="material-icons">keyboard_arrow_down</i></a>
                                             <ul>
                                                 <li>
-                                                    <a href="ui-alerts.html">Alerts</a>
+                                                    <a href="extended-select2.html">Batimetri</a>
                                                 </li>
                                                 <li>
-                                                    <a href="ui-badge.html">Badge</a>
+                                                    <a href="extended-datatables.html">Foto Udara</a>
                                                 </li>
                                                 <li>
-                                                    <a href="ui-breadcrumb.html">Breadcrumb</a>
+                                                    <a href="extended-blockui.html">Sedimentasi</a>
                                                 </li>
                                                 <li>
-                                                    <a href="ui-buttons.html">Buttons</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-card.html">Card</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-collapse.html">Collapse</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-dropdowns.html">Dropdowns</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-list-group.html">List Group</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-modal.html">Modal</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-pagination.html">Pagination</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-popovers.html">Popovers</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-progress.html">Progress</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-spinners.html">Spinners</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-toast.html">Toast</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-tooltips.html">Tooltips</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Extended<i class="material-icons">keyboard_arrow_down</i></a>
-                                            <ul>
-                                                <li>
-                                                    <a href="extended-select2.html">Select2</a>
-                                                </li>
-                                                <li>
-                                                    <a href="extended-datatables.html">Data Tables</a>
-                                                </li>
-                                                <li>
-                                                    <a href="extended-blockui.html">Block UI</a>
-                                                </li>
-                                                <li>
-                                                    <a href="extended-session.html">Session Timeout</a>
-                                                </li>
-                                                <li>
-                                                    <a href="extended-tree.html">Tree View</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="forms.html">Forms</a></li>
-                                        <li><a href="charts.html">Charts</a></li>
-                                        <li><a href="#">Pages<i class="material-icons">keyboard_arrow_down</i></a>
-                                            <ul>
-                                                <li>
-                                                    <a href="404.html">404</a>
-                                                </li>
-                                                <li>
-                                                    <a href="500.html">500</a>
-                                                </li>
-                                                <li>
-                                                    <a href="sign-in.html">Sign In</a>
-                                                </li>
-                                                <li>
-                                                    <a href="sign-up.html">Sign Up</a>
+                                                    <a href="extended-session.html">Data Spasial Lain</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -243,10 +160,6 @@
                                         <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
                                     </ol>
                                 </nav>
-                                <div class="page-options">
-                                    <a href="#" class="btn btn-secondary">Settings</a>
-                                    <a href="#" class="btn btn-primary">Upgrade</a>
-                                </div>
                             </div>
                         </div>
                     </div>
