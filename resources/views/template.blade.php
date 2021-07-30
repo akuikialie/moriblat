@@ -22,7 +22,6 @@
 
         <!-- Theme Styles -->
         <link href="{{ asset('assets/css/connect.min.css') }}" rel="stylesheet">
-{{--        <link href="{{asset('assets/css/connect.css')}}">--}}
         <link href="{{ asset('assets/css/admin2.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/dark_theme.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
@@ -60,7 +59,7 @@
                         </div>
                         <div class="row">
                             <div class="col-xl">
-                                <button type="button" class="btn btn-primary rounded-pill">Tambah Masalah</button>
+                                <button type="button" class="btn btn-primary icon-btn"><i class="icon-btn fas fa-plus fa-lg"></i> Tambah Masalah</button>
                                 <div class="card card-masalah">
                                     <div class="card-body">
                                         <h3 class="card-title">Masalah</h3>
