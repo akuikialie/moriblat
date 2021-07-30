@@ -1,8 +1,56 @@
 /* Write your custom CSS here */
 .card-masalah, .card-program, .card-kegiatan {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
+.btn-tambah {
+    margin-top: 20px;
+}
+.btn-view{
+    font-weight: 700;
+    border-radius: 7px;
+    line-height: 22px;
+    border: none;
+    font-size: 13px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-color: #FFB801;
+}
+.btn-edit{
+    font-weight: 700;
+    border-radius: 7px;
+    line-height: 22px;
+    border: none;
+    font-size: 13px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-color: #1569E7;
+}
+.btn-del{
+    font-weight: 700;
+    border-radius: 7px;
+    line-height: 22px;
+    border: none;
+    font-size: 13px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-color: #E52727;
+}
 .icon-btn {
     margin-right: 5px;
 }

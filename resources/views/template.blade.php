@@ -59,11 +59,84 @@
                         </div>
                         <div class="row">
                             <div class="col-xl">
-                                <button type="button" class="btn btn-primary icon-btn"><i class="icon-btn fas fa-plus fa-lg"></i> Tambah Masalah</button>
+                                <h3 class="card-title">Permasalah</h3>
+                                <button type="button" class="btn btn-tambah btn-primary icon-btn"><i class="icon-btn fas fa-plus fa-lg"></i> Tambah Masalah</button>
                                 <div class="card card-masalah">
+                                    <div class="card-header">
+                                        <ul class="nav nav-tabs card-header-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" href="#">Permasalahan</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Kelembagaan</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Kemasyarakatan</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Masalah</h3>
-                                        <p>We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping <code>&lt;nav&gt;</code> element to identify it as a navigation section to screen readers and other assistive technologies.</p>
+                                        {{--Konten--}}
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col">ID</th>
+                                                    <th scope="col">Jenis</th>
+                                                    <th scope="col">Nama</th>
+                                                    <th scope="col">Status</th>
+                                                    <th scope="col">Capaian</th>
+                                                    <th scope="col">Aksi</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>0001</td>
+                                                    <td>Masalah</td>
+                                                    <td>Juknis Rencana Tata Ruang</td>
+                                                    <td><span class="badge badge-warning">Sedang Berjalan</span></td>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar" style="width: 75%;"
+                                                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <button type="button" class="btn-view"><i class="fas fa-binoculars fa-lg"></i></button>
+                                                        <button type="button" class="btn-edit"><i class="fas fa-edit fa-lg"></i></button>
+                                                        <button type="button" class="btn-del"><i class="fas fa-trash-alt fa-lg"></i></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0002</td>
+                                                    <td>Masalah</td>
+                                                    <td>Perda Rencana Tata Ruang</td>
+                                                    <td><span class="badge badge-danger">Belum Dikerjakan</span></td>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar" style="width: 0%;"
+                                                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0%
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0003</td>
+                                                    <td>Potensi</td>
+                                                    <td>Pengembangan Enceng Gondok</td>
+                                                    <td><span class="badge badge-success">Selesai</span></td>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar" style="width: 100%;"
+                                                             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
