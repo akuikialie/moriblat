@@ -22,6 +22,7 @@
 
         <!-- Theme Styles -->
         <link href="{{ asset('assets/css/connect.min.css') }}" rel="stylesheet">
+{{--        <link href="{{asset('assets/css/connect.css')}}">--}}
         <link href="{{ asset('assets/css/admin2.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/dark_theme.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
@@ -62,7 +63,7 @@
                                 <button type="button" class="btn btn-primary rounded-pill">Tambah Masalah</button>
                                 <div class="card card-masalah">
                                     <div class="card-body">
-                                        <h5 class="card-title">Masalah</h5>
+                                        <h3 class="card-title">Masalah</h3>
                                         <p>We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping <code>&lt;nav&gt;</code> element to identify it as a navigation section to screen readers and other assistive technologies.</p>
                                     </div>
                                 </div>
