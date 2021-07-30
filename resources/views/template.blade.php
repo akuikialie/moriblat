@@ -105,6 +105,9 @@
                                         <li>
                                             <a href="#">Lembaga<i class="material-icons"></i></a>
                                         </li>
+                                        <li>
+                                            <a href="#">Masyarakat<i class="material-icons"></i></a>
+                                        </li>
                                         <li><a href="#">kajian<i class="material-icons">keyboard_arrow_down</i></a>
                                             <ul>
                                                 <li>
