@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,62 +34,64 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js') }}"></script>
     <![endif]-->
 </head>
-<body>
-<div class='loader'>
-    <div class='spinner-grow text-primary' role='status'>
-        <span class='sr-only'>Loading...</span>
-    </div>
-</div>
-<div class="connect-container align-content-stretch d-flex flex-wrap">
-    <div class="page-container">
-        {{--Navigasi--}}
-        @include('Partials.navbar');
-        {{--Konten--}}
-        {{-- @include('content');--}}
-        <div class="page-content">
-            <div class="page-info container">
-                <div class="row">
-                    <div class="col">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Apps</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md">
-                        <h3 class="card-title">Tambah Permasalahan</h3>
-                        <div class="card card-masalah">
-                            <div class="card-body">
-                                {{--Konten--}}
 
+<body>
+    <div class='loader'>
+        <div class='spinner-grow text-primary' role='status'>
+            <span class='sr-only'>Loading...</span>
+        </div>
+    </div>
+    <div class="connect-container align-content-stretch d-flex flex-wrap">
+        <div class="page-container">
+            {{--Navigasi--}}
+            @include('Partials.navbar');
+            {{--Konten--}}
+            {{-- @include('content');--}}
+            <div class="page-content">
+                <div class="page-info container">
+                    <div class="row">
+                        <div class="col">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#">Apps</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <h3 class="card-title">Tambah Permasalahan</h3>
+                            <div class="card card-masalah">
+                                <div class="card-body">
+                                    {{--Konten--}}
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            {{--Footer--}}
+            @include('Partials.footer');
         </div>
-        {{--Footer--}}
-        @include('Partials.footer');
     </div>
-</div>
 
-<!-- Javascripts -->
-<script src="{{ asset('assets/plugins/jquery/jquery-3.4.1.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/bootstrap/popper.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/apexcharts/dist/apexcharts.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/blockui/jquery.blockUI.js') }}"></script>
-<script src="{{ asset('assets/plugins/flot/jquery.flot.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/flot/jquery.flot.time.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/flot/jquery.flot.symbol.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/flot/jquery.flot.resize.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/flot/jquery.flot.tooltip.min.js') }}"></script>
-<script src="{{ asset('assets/js/connect.min.js') }}"></script>
-<script src="{{ asset('assets/js/pages/dashboard.js') }}"></script>
+    <!-- Javascripts -->
+    <script src="{{ asset('assets/plugins/jquery/jquery-3.4.1.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/bootstrap/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/apexcharts/dist/apexcharts.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/blockui/jquery.blockUI.js') }}"></script>
+    <script src="{{ asset('assets/plugins/flot/jquery.flot.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/flot/jquery.flot.time.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/flot/jquery.flot.symbol.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/flot/jquery.flot.resize.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/flot/jquery.flot.tooltip.min.js') }}"></script>
+    <script src="{{ asset('assets/js/connect.min.js') }}"></script>
+    <script src="{{ asset('assets/js/pages/dashboard.js') }}"></script>
 </body>
+
 </html>

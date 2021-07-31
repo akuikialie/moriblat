@@ -19,7 +19,6 @@ Route::get('/login', function () {
 Route::get('/', function () {
     return view('template');
 });
-Route::get('/add_masalah', function (){
-    return view('add_masalah'){
-
+Route::get('/add_masalah', function () {
+    return view('add_masalah');
 });
